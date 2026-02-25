@@ -12,9 +12,9 @@ import java.util.List;
 @RestController
 public class StudentController {
 
-//    http://localhost:8080/student
+//    http://localhost:8080/student/vvk
 
-    @GetMapping("student")
+    @GetMapping("student/vvk")
 
     public Student getStudent() {
         Student student;
